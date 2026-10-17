@@ -40,4 +40,7 @@ npm run build
 3. Build command `npm run build`, Build output directory `dist`, Root directory 비움, 환경변수 없음.
 4. 배포 후 발급된 `https://프로젝트명.pages.dev` 주소를 참가자에게 공유합니다.
 
+현재 배포: https://lequestion.pages.dev (Cloudflare Pages `lequestion` 프로젝트, GitHub `main` 브랜치와 연동).
+`main`에 push하면 Cloudflare가 자동으로 다시 빌드·배포합니다. 다른 브랜치는 미리보기 주소로 배포됩니다.
+
 무료 요금제 조건과 한도는 공식 문서로 확인하세요: https://developers.cloudflare.com/pages/platform/limits/
